@@ -30,6 +30,7 @@ button {
   text-align: left;
   border: none;
   background-color: hsl(0, 0%, 20%);
+  color: antiquewhite;
 }
 body {
   margin: 0;
@@ -44,4 +45,15 @@ button:hover {
 }
 button:active {
   background-color: hsl(0, 0%, 50%);
+}
+
+.operator-btn {
+  background-color: hsl(156, 67%, 40%);
+}
+
+.operator-btn:hover {
+  background-color: hsl(156, 67%, 67%);
+}
+.operator-btn:active {
+  background-color: hsl(156, 67%, 75%);
 }
